@@ -1,0 +1,132 @@
+*{
+    font-family: "Roboto",serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+      
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.9;
+    animation: scale 25s;
+}
+
+@keyframes scale {
+    0% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .hero-container{
+      text-align: center;
+      
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+     
+      
+  }
+
+
+.hero-txt h2{
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero-txt h3{
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero-icons{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-icons img{
+    height:75px;
+    width: auto;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.project-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/project-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-color: rgb(170, 169, 169);
+   
+}
+
+
+
+.project-heading h2{
+    font-size: 35px;
+    
+}
+
+.project-list{
+    margin-top: 10rem;
+    margin-left: 4rem;
+}
+.project-list img{
+    height: 220px;
+    width: 280px;
+    box-shadow: 2px 2px;
+}
+
+.project-list li{
+    
+    margin-right: 5rem;
+    justify-content: space-evenly;
+    display: inline;
+}
+
+.about-me{
+    height: 100vh;
+    padding: 5rem;
+    
+}
+
+.about-heading h2{
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about-para p{
+    font-size: 18px;
+    margin-top: 10rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+}
