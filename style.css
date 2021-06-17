@@ -111,6 +111,47 @@
     display: inline;
 }
 
+.qoutation-calc{
+    background-color: rgb(230, 230, 230);
+   
+    
+}
+.qoutation-calc h2{
+    transform: translateX(45%);
+}
+
+.page-number h2{
+    transform: translateX(45%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page-number form{
+    transform: translateX(45%);
+    margin: .5rem;
+}
+
+.features h2{
+    transform: translateX(45%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features{
+    
+    margin-bottom: 2rem;
+}
+
+.features form{
+    transform: translateX(45%);
+}
+
+.price-container h2{
+    transform: translateX(45%);
+}
+
+
+
 .about-me{
     height: 100vh;
     padding: 5rem;
@@ -131,6 +172,8 @@
     letter-spacing: .1rem;
     line-height: 2rem;
 }
+
+
 
 @media (max-width: 700px) {
 
@@ -200,3 +243,5 @@
         box-shadow: 2px 2px;
     }
 }
+
+
